@@ -1,0 +1,30 @@
+body{
+    background-image: url("../assets/nickelback.webp");
+    color: #FFFFFF;
+}
+#lorem-two{
+    font-size: 20px;
+}
+
+h2{background-color: #080808;}
+
+#propiedad-color{
+    color: red;
+}
+
+#propiedad-backgrouncolor{
+    background-color: blue;
+}
+
+img{
+    width: 257px;
+    height: 100px;
+}
+
+h4{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+p{
+    font-size: 30px;
+    font-style: italic;
+}

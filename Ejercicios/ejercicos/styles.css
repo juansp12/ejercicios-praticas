@@ -1,0 +1,23 @@
+body{
+    background-image: url("../assets/mexico.webp");
+    color: antiquewhite;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    width: 1000px;
+    height: 400px;
+}
+h1{
+    color: black;
+    background-color: aliceblue;
+    font-family: "Changa One", sans-serif;
+}
+ul{
+    font-family: "Glegoo", serif;
+}
+ol{
+    font-family: "Glegoo", serif;
+}

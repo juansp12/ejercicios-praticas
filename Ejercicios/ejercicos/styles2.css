@@ -1,0 +1,16 @@
+body {
+    background-color: #F5EDED; 
+}
+
+h1, h3{
+    font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+p{
+    font-family: "Glegoo", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+

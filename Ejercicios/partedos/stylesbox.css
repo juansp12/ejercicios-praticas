@@ -1,0 +1,20 @@
+/*
+p{
+    border: 1px solid black;
+    padding: 16px 0px 16px 0px;
+}
+*/
+p, h1{
+    border: 1px solid black;
+    /*padding: 16px 0px 16px 0px;
+    padding-top: 16px;
+    padding-right: 25px;
+    padding-bottom: 16px;
+    padding-left: 25px;*/
+    margin: 15px 15px 15px 15px;
+}  
+/*
+div, h2, p{
+    border: 1px solid black;
+    padding-top: 50;
+} */

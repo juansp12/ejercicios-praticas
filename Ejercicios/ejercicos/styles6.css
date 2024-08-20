@@ -1,0 +1,83 @@
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    overflow: hidden;
+}
+
+.video-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/nickelbackvideo.mp4') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+}
+
+#nickelback{
+    background-color: red;
+    color: white;
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    padding: 15px 15px 15px 15px;
+}
+h2, p{
+    color: white;
+    background-color: black;
+    font-family: "Blinker", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    margin: 10px 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+#bibliografia{
+    color: white;
+    background-color: black;
+}
+ol{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 16px 0px 16px 0px;
+    margin: 15px 15px 15px 15px;
+    color: white;
+}
+
+.lista-centrada {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.lista-centrada li {
+    margin-bottom: 10px; /
+}
+.container {
+    text-align: center;
+}
+
+.btn-click {
+    background-color: black; /* Color de fondo verde */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Espaciado interno (padding) */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Hace que se comporte como un botón */
+    font-size: 16px; /* Tamaño del texto */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+    cursor: pointer; /* Cambia el cursor a mano cuando se pasa sobre el botón */
+}
+
+.btn-click:hover {
+    background-color: gray; /* Color de fondo cuando el ratón pasa por encima */
+}
